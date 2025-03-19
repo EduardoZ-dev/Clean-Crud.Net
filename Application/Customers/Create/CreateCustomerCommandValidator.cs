@@ -22,7 +22,7 @@ namespace Application.Customers.Create
 
             RuleFor(r => r.PhoneNumber)
                 .NotEmpty()
-                .MaximumLength(9)
+                .MaximumLength(15)
                 .WithName("Phone Number");
 
             RuleFor(r => r.Country)
